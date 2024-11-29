@@ -1,0 +1,193 @@
+/* ESTILO BASICO */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* CABEÇALHO */
+header {
+    background-color: #5326bd;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* HOME */
+.home {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.foto-perfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+/* SOBRE */
+.sobre {
+    padding: 20px;
+    text-align: center;
+}
+
+.imagem-sobre {
+    width: 300px;
+    height: 320px;
+    margin: 10px;
+    border-radius: 15px; /* BORDAS ARREDONDADAS */  
+}
+
+.imagem-sobre:hover {
+    transform: scale(1.05); /* AUMENTA A IMASGEM AO PASSAR O MOUSE */
+}
+
+
+
+
+
+/* CONTATO*/
+.contato form {
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contato input, .contato textarea {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+.contato button {
+    background-color: #5326bd;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/*CALCULADORA*/
+
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.calculadora {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.calculadora h1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+#display {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    text-align: right;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 20px;
+    font-size: 18px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+button:active {
+    background-color: #d0d0d0;
+}
+
+
+/*estilo para STOP */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+  
+  
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+    font-size: 28px;
+}
+
+#letra {
+    font-size: 48px;
+    margin: 20px 0;
+    color: #555;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
